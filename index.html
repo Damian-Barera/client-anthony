@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Link CSS -->
+  <link href="index.css" rel="stylesheet">
+  
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Damian Barera">
+  <meta name="description" content="Anthony Profesor Italiano Nativo">
+  <meta name="keywords" content="Italiano, Nativo, Profesor, Técnico, Empresas, Turistas, Nivel, Basico, Intermedio, Avanzado">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Tittle -->
+  <title> Anthony Profesor Italiano Nativo </title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="images/siteLogo_32_32.png" type="image/x-icon">
+  
+  <!-- Link GoogleFonts -->
+  <!-- Rubik Dirt -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+  <!-- Hanken Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+
+        <!-- Logotipe -->
+        <img src="/images/anthonyLogotipe.png" alt="Damian Barera Icon">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle proyectos-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Niveles
+            </a>
+            <ul class="dropdown-menu">
+              <!-- This link go to another HTML -->
+              <li><a class="dropdown-item" href="#">Turistas</a></li>
+              <!-- This link go to another HTML -->
+              <li><a class="dropdown-item" href="#">Fluido</a></li>
+              <!-- Divisor  -->
+              <li><hr class="dropdown-divider"></li>
+              <!-- Those links go to another HTML -->
+              <li><a class="dropdown-item" href="#">Técnico</a></li>
+              <li><a class="dropdown-item" href="#">Empresarial</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <!-- This link go to another section of this page -->
+            <a class="nav-link" href="#">Contáctame</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr class="divisor">
+  <!-- Hero Section & Image Profile -->
+  <section class="hero align-items-center-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img src="images/anthonyItaliano.jpeg" alt="Imagen Damian Barera FrontEnd Developer">
+      <h1 class="hidden-title"> Anthony profesor Italiano Nativo, Italiano para turistas, Nivel Básico, Intermedio, Avanzado, Italiano Técnico, Italiano para empresas </h1>
+      <br>
+      <h2 class="presentation-text"> Hola, soy Anthony, Italiano Nativo </h2>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about-me">
+    <h2> Conóceme </h2>
+    <p> Italiano Nativo bilingüe Español. Me gusta enseñar y dar lo mejor de mi para que mis alumnos puedan cumplir sus objetivos.<br>
+    </p>
+  </section>
+  <!-- Italian Level -->
+  <section class="italian-level">
+    <h2> Niveles de Italiano </h2>
+
+    <!-- Description Boxes -->
+    <div class="description-boxes">
+      <img src="./images/coliseoRomano.jpg" alt="el coliseo romano" />
+      <div>
+        <h3> Turista </h3>
+        <p> ¿Deseas visitar Italia pero no conoces nuestro maravilloso idioma? </p>
+      </div>
+    </div>
+    <div class="description-boxes">
+      <img src="./images/trabajador_remoto.jpg" alt="un trabajador remoto" />
+      <div>
+        <h3> Técnico </h3>
+        <p> ¿Trabajas de forma remota para una empresa Italiana? </p>
+      </div>
+    </div>
+    <div class="description-boxes">
+      <img src="./images/italianoAvanzado.jpg" alt="dos personas hablando en italiano" />
+      <div>
+        <h3> Fluido </h3>
+        <p>
+          ¿Deseas vivir en Italia?<br>
+          Necesitas conocer en profundidad el idioma para vivir una vida plena.
+        </p>
+      </div>
+    </div>
+    <div class="description-boxes">
+      <img src="./images/italianoParaEmpresas.jpg" alt="una reunion empresarial" />
+      <div>
+        <h3> Empresarial </h3>
+        <p> ¿Sus empleados necesitan ampliar sus habilidades de comunicación? </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soft Skills Section -->
+  <section class="soft-skills">
+    <h2> Los 5 Lemas Anthony </h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Creatividad
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Mis métodos de enseñanza pueden ser muy originales
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Paciencia
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Puedes preguntarme todo lo que necesites y soy capaz de explicar el mismo concepto de múltiples formas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Disponibilidad
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Puedes enviarme preguntas fuera de hora de clase y te las respondere a la brevedad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Práctica
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              La finalidad fundamental de aprender un idioma es lograr una comunicación exitosa con gente nativo-hablante. En mis clases vamos a hablar mucho.
+            </p>
+          </div>
+        </div>
+      </div><div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Positivismo
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Me gusta estar de buen estado de ánimo porque es bueno para la salud y contagioso. Los alumnos felices aprenden más rápido.<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimony Section -->
+  <div id="testimony" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimony-image rounded-circle" src="./images/coliseoRomano.jpg" alt="">
+          <p class="testimony-text"> iurbviraubibaibsb </p>
+          <div>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimony-image rounded-circle" src="./images/coliseoRomano.jpg" alt="">
+          <p class="testimony-text"> iurbviraubibaibsb </p>
+          <div>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimony-image rounded-circle" src="./images/coliseoRomano.jpg" alt="">
+          <p class="testimony-text"> iurbviraubibaibsbfaibfiaubeiasbfiasbefisabfibaesfi </p>
+          <div>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimony" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimony" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
