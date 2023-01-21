@@ -39,7 +39,7 @@
 .divisor {
     background-color: #f5f6f7;
     margin: 0 auto;
-    padding: 0%;
+    padding: 0;
     width: 80%;
 }
 
@@ -52,6 +52,7 @@
 /* Hero Section */
 
 .black-background {
+    padding: 10px;
     background-color: #f5f6f7;
 }
 
@@ -149,6 +150,8 @@
 
 /* Carousel Section */
 /* Testimony Section */
+
+
 
 
 /*Anthony Introduction*/
