@@ -225,6 +225,15 @@
     transition: all 0.2s ease-in-out;
 }
 
+.contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact button:hover svg {
+    color: black;
+}
+
 .contact button svg {
     color: white;
 }
