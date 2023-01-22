@@ -1,0 +1,103 @@
+/* Generals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #f5f6f7;
+}
+
+.navbar-toggler {
+    background-color: #B84480;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Menu Image */
+
+.navbar-brand img {
+    width: 220px;
+    height: 110px;
+}
+
+.recruiter-menu {
+    color:rgb(255, 102, 0)
+}
+
+.recruiter-menu:hover {
+    color: #B84480;
+}
+
+.divisor {
+    background-color: #f5f6f7;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+@media (max-width: 767px) {
+    .divisor {
+        display: none;
+    }
+}
+
+
+/*Anthony Introduction*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero img {
+    width: 60%;
+    min-width: 288px;
+    max-width: 500px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.hidden-title {
+    background-color: #f5f6f7;
+    color: #f5f6f7;
+    font-size: 8px;
+}
+
+.presentation-text {
+    font-size: 1.5rem;
+    color: white;
+    background-image: linear-gradient(green, red);
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.about-me {
+    background-color:#f5f6f7;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.about-me h2 {
+    margin: 10px;
+}
