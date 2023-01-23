@@ -237,6 +237,14 @@
     color: white;
 }
 
+/* Footer Section */
+
+.footer-oscuro {
+    background-color: black;
+    color: white;
+    padding: 0px 0 10px 0;
+}
+
 /*Anthony Introduction*/
 section {
     display: flex;
